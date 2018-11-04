@@ -1,6 +1,6 @@
 subdirs(enet shared)
 
-find_package(PythonLibs REQUIRED)
+find_package(Python2 REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(Threads REQUIRED)
 
@@ -54,7 +54,7 @@ include_directories(${CMAKE_SOURCE_DIR}/src/engine
 add_executable(xsbs
 	${xsbs_srcs})
 
-target_link_libraries(xsbs ${XSBS_LIBS})
+target_link_libraries(xsbs ${XSBS_LIBS} python2.7)
 
 install(TARGETS xsbs DESTINATION bin)
 

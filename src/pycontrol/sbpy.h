@@ -20,7 +20,7 @@
 #ifndef SBPY_SBPY_H
 #define SBPY_SBPY_H
 
-#include <Python.h>
+#include <python2.7/Python.h>
 #include <vector>
 
 namespace SbPy

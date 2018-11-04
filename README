@@ -4,7 +4,7 @@ PREREQUISITES
 -------------
 Before you can build and install the server, you must have the following installed on your computer.
  - Python 2.4 or greater (Python 2.6 recommended)
- - Twisted python framework
+ - Twisted python framework (you may need pip for python2.7 if you want to use pip)
  - Zlib
  - CMake
  - C++ compiler
